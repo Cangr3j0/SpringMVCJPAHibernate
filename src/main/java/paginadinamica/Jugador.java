@@ -27,9 +27,12 @@ public class Jugador {
 	private int visitas;
 	 @Column(name = "torneosGanados", nullable = false)
 	private int torneosGanados;
-	
+	 @Column(name = "username", nullable = false)
+	private String username;
+	 @Column(name = "password", nullable = false)
+	private String password;
 	public Jugador() {}
-	public Jugador(String nombreReal, String nick, String email, String elo, int posEnRanking) {
+	public Jugador(String nombreReal, String nick, String email, String elo, int posEnRanking,String username,String password) {
 		super();
 		this.nombreReal = nombreReal;
 		this.nick = nick;
@@ -38,6 +41,8 @@ public class Jugador {
 		this.posEnRanking = posEnRanking;
 		visitas=0;
 		torneosGanados=0;
+		this.username=username;
+		this.password=password;
 	}
 	
 
@@ -88,6 +93,18 @@ public class Jugador {
 	}
 	public void setTorneosGanados(int torneosGanados) {
 		this.torneosGanados = torneosGanados;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	

@@ -13,9 +13,9 @@ public class EnMemoriaRepositorioJugadores implements RepositorioJugadores {
 	private List<Jugador> listaJugadores = new ArrayList<Jugador>();
 
 	public EnMemoriaRepositorioJugadores() {
-	Jugador kurolo=new Jugador("Lucho Arroyo", "Kurolo", "asd@gmail.com", "Platino IV", 0);
-	Jugador kurolo2=new Jugador("Lucho Arroyo2", "Kurolo2", "asd@gmail.com2", "Oro IV", 0);
-	Jugador kurolo3=new Jugador("Lucho Arroyo3", "Kurolo3", "asd@gmail.com3", "Platino IV", 0);
+	Jugador kurolo=new Jugador("Lucho Arroyo", "Kurolo", "asd@gmail.com", "Platino IV", 0,"usernameenmemoria1","passwordenmemoria1");
+	Jugador kurolo2=new Jugador("Lucho Arroyo2", "Kurolo2", "asd@gmail.com2", "Oro IV", 0,"usernameenmemoria2","passwordenmemoria2");
+	Jugador kurolo3=new Jugador("Lucho Arroyo3", "Kurolo3", "asd@gmail.com3", "Platino IV", 0,"usernameenmemoria3","passwordenmemoria3");
 	listaJugadores.add(kurolo);
 	listaJugadores.add(kurolo2);
 	listaJugadores.add(kurolo3);
