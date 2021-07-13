@@ -91,6 +91,8 @@ public class ControladorJugador {
 }
 	
 	
+
+
 /*****************************Repositorio En memoria**********************************	
 //	@Autowired
 //	private ServicioJugador servicioJugador;
